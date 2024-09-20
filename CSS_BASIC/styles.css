@@ -25,4 +25,4 @@ nav { background-color: #035255;
 height: 70px;
 img { height:20px; display: flex; align-self: center; padding: 30px;} }
 
-footer {background-color: #035255; height: 70px;}
+footer {background-color: #035255; height: 70px; display: flex;}
