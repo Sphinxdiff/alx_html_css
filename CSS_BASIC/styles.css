@@ -10,3 +10,19 @@ overflow-y: auto}
 
 main,aside {flex: 1; overflow-y: auto
 }
+
+
+nav,ul { display: flex;
+align-self: center;
+flex-direction: row;
+ }
+
+
+
+
+
+nav { background-color: #035255;
+height: 70px;
+img { height:20px; display: flex; align-self: center; padding: 30px;} }
+
+footer {background-color: #035255; height: 70px;}
