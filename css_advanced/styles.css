@@ -31,6 +31,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-family:'Source Sans Pro', sans-serif;
+    
 }
 
 .background_image { height: 1063; 
@@ -322,6 +323,63 @@ left: 370px;
     color: #999;
 }
 
+
+/* Free Membership Section */
+.membership-section {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.membership-section h2 {
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+.membership-section .highlight {
+    color: #a373c7;
+}
+
+.membership-icons {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.membership-icon {
+    margin: 0 30px;
+    text-align: center;
+}
+
+.membership-icon img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.membership-icon p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.membership-button {
+    background-color: #a373c7;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1em;
+    border-radius: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.membership-button:hover {
+    background-color: #8f5dbb;
+}
 
 
 
