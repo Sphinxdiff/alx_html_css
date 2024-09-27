@@ -200,6 +200,128 @@ header nav ul li a {
     font-style: italic;
 }
 
+/* Popular Tutorials Section */
+.popular-tutorials-section {
+    background-color: rgb(255, 255, 255);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.popular-tutorials-section h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: #071629;
+}
+
+.popular-tutorials-section .highlight {
+    color: #C271FF;
+}
+
+.tutorial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+  
+  
+
+
+}
+
+.tutorial-card {
+   
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: left;
+}
+
+.play1 {
+
+    position: absolute;
+top:  20px;
+left: 70px;
+margin: 50px;
+}
+
+.play2 {
+
+position: absolute;
+top: 10px;
+margin: 60px;
+left: 370px;
+
+}
+
+
+.play3 {
+
+    position: absolute;
+    top: 15px;
+    margin: 50px;
+    left: 680px;
+    }
+
+    .play4 {
+
+        position: absolute;
+        top: 5px;
+        margin: 60px;
+        left: 980px;
+        }
+
+.tutorial-card img.tutorial-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.tutorial-card h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #071629;
+}
+
+.tutorial-card p {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.tutorial-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tutor-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.tutor-details {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.tutor-details p {
+    margin: 0;
+    font-size: 0.85em;
+    font-weight: bold;
+}
+
+.ratings {
+    color: #a373c7;
+    font-size: 0.8em;
+}
+
+.tutorial-duration {
+    font-size: 0.85em;
+    color: #999;
+}
+
 
 
 
