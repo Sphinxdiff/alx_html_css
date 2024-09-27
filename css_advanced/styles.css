@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+    /* Importing the custom Spin Cycle OT font (hosted locally or through a web service) */
+    @font-face {
+        font-family: 'Spin Cycle OT';
+        src: url('/fonts/Spin-Cycle-OT.woff2') format('woff2'),
+             url('/fonts/Spin-Cycle-OT.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+    
+    /* Global font settings */
+    body {
+        font-family: 'Source Sans Pro', sans-serif;
+}
+
+.leading_section {
+    position: relative;
+    width: 100%;
+    height: vh;
+    background: url('/css_advanced/images/Object.png')no-repeat rgb(116, 115, 115) ; 
+
+    background-color: #071629;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+.background_image { height: 1063; 
+width: 1440;
+}
+
+.bold {
+    color: #C271FF; 
+}
+
+.learn-from-pros h2 { font-weight: 200;}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+header nav .img { 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100px ;
+    margin-inline-start: auto;
+    justify-content: space-around;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: stretch;
+    margin: 20px;
+
+}
+
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.main-content {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.main-content h1 {
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+
+.tagline {
+    display: flex;
+    gap: 5px;
+    font-size: 1.0em;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+
+.register-button { size: 10% ;
+    background-color: #7a4de1;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 35px;
+
+}
+
+.register-button:hover {
+    background-color: #9d6dfc;
+}
+
+.learn-from-pros {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.learn-from-pros h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.pros-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.pro {
+    text-align: center;
+}
+
+.pro img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.pro h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.pro p {
+    font-size: 0.9em;
+}
+
