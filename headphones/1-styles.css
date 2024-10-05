@@ -104,7 +104,7 @@ cursor: pointer; }
 
 header .leading-section {
     background: url(/headphones/images/headphones_hero_1.jpg) no-repeat center/cover ;
-    height: 100%auto;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -226,6 +226,7 @@ header .leading-section {
     }
 
     .nav-links {
+        display: none;
         margin-top: 10px;
     }
 
